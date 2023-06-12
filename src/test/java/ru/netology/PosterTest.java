@@ -1,6 +1,8 @@
 package ru.netology;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
 public class PosterTest {
     @Test
     public void test() {
@@ -79,7 +81,8 @@ public class PosterTest {
 
         String[] actual = poster.findLast();
         Assertions.assertArrayEquals(expected, actual);
-   }
+    }
+
     @Test
     public void test6() {
         PosterFilms poster = new PosterFilms();
